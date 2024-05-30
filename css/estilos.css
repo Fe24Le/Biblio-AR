@@ -366,7 +366,41 @@ body{
         
         }
     }
-   
+   /* Seccion mensajes iniciar secion----------------------------*/
+        .texto-uno a{
+            color:var(--Yellow-White);
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .texto-uno a:hover,
+        .texto-dos a:hover {
+          text-decoration: underline;  
+        }
+
+        .texto-aviso{
+            color: var(--Greey-Black);
+            margin-top: 20px; 
+            font-size: 12px;  
+            text-align: center;
+            visibility: hidden;
+        }
+
+        .texto-dos{
+            color: var(--Greey-Black);
+            margin-top: 20px; 
+            font-size: 12px;  
+            text-align: center;
+        }
+
+        .texto-dos a{
+            color: var(--Yellow-White);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 12px;  
+        }
+         /* Seccion mensajes iniciarsesion---------------------------fin-*/
 }
 
 @media (max-width: 768px) {
